@@ -9,7 +9,7 @@ function count() {
   console.log(i + " outside the forLoop");
 }
 
-// count(); // <---- uncomment me!
+count(); // <---- uncomment me!
 
 // Another problem with var is that we can overwrite it, like this:
 
