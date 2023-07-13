@@ -11,6 +11,16 @@ function logPerson(person) {
   console.log("The person is " + person);
 }
 
+const consoleLogIt = function(person){
+  console.log("The person is " + person);
+}
+
+const arrowFunctionConsoleLogIt = (person) => {  console.log("The person is " + person);
+} 
+
+person => {console.log("The person is " + person)}
+
+
 people.forEach(logPerson);
 
 // Function in a Variable
