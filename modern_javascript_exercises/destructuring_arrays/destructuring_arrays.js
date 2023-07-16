@@ -7,6 +7,11 @@
 
 //   return first + ", " + second + ", " + third;
 // }
+export function sequence0(order) {
+  return order.join(", ");
+}
+
 export function sequence(order) {
-  return order.join(', ')
+  const [first, second, third] = order;
+  return first + ", " + second + ", " + third;
 }
