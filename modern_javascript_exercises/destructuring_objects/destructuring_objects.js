@@ -5,5 +5,7 @@ export function introduction(person) {
   const city = person.city;
   const pet = person.pet;
 
-  return "Hello my name is " + name + " and I live in " + city + " with " + pet;
+  // return "Hello my name is " + name + " and I live in " + city + " with " + pet;
+
+  return `Hello my name is ${person.name} and I live in ${person.city} with ${person.pet}`
 }
